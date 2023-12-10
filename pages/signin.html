@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sign-in page</title>
+    <link rel="stylesheet" type="text/css" href="../assets/signin.css" />
+    <script src="../assets/signin.js"></script>
+  </head>
+  <body>
+    <section>
+      <div class="logo">
+        <img src="../assets/images/primesignin.png" alt="" />
+        <span></span>
+      </div>
+      <div class="card">
+        <h1>Sign in</h1>
+        <form id="form" method="post">
+          <label for="inputField">Email or mobile phone number</label>
+          <input type="text" id="inputField" name="inputField" required />
+          <a href="https://prime-clone-sigma.vercel.app/"
+            ><button id="button" onclick="validateInput()">Continue</button></a
+          >
+        </form>
+        <p>
+          By continuing, you agree to the Amazon's<a href="#">
+            Conditions of Use</a
+          >
+          and <a href="#">privacy Notice.</a>.
+        </p>
+        <a href="#" class="icon">Need help?</a>
+      </div>
+      <div class="breck">
+        <p>New to Amazon?</p>
+      </div>
+      <div class="btn">
+        <a href="../pages/registration.html"
+          ><button>Create your Amazon account</button></a
+        >
+      </div>
+      <footer>
+        <div class="links">
+          <a href="#">Terms and Privacy Notice</a>
+          <a href="#">Send us feedback</a>
+          <a href="#">Help</a>
+        </div>
+        <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+      </footer>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sana-serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 130px;
+  height: 45px;
+  margin-top: 15px;
+}
+
+.logo span {
+  margin: 10px;
+  font-size: 14px;
+}
+
+.card {
+  width: 300px;
+  height: 220px;
+  padding: 150px 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 20px auto 10px auto;
+}
+
+.card h1 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.card label {
+  font-size: 13px;
+  padding-top: 10px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  font-weight: 700;
+}
+
+.card input {
+  width: 272px;
+  height: 25px;
+  padding: 3px 7px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #a6a6a6;
+  border-radius: 3px;
+}
+
+.card #btn {
+  width: 288px;
+  height: 31px;
+  margin-top: 15px;
+  background-color: #f0c14b;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  background-image: linear-gradiant(#f7da90,#e2b33b);
+  border-radius: 3px;
+}
+
+.card p,.card p a {
+  font-size: 12px;
+  line-height:  1.5;
+}
+
+a{
+  text-decoration: none;
+  color: #0066c0;
+}
+
+.card a{
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.ic::after {
+  display: inline-block;
+  content: "";
+  border-top: 4px solid transparent;
+  border-left: 4px solid #949494;
+  border-bottom: 4px solid transparent;
+  margin-right: 10px;
+}
+
+footer .links {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin: 25px auto 15px auto;
+}
+
+footer .links a{
+  font-size: 12px;
+}
+
+footer::before {
+  content: "";
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  height: 44px;
+  margin-top: -35px;
+  border-top: 1px solid transparent;
+  box-shadow: 0 10px 15px -20px #333;
+}
+
+footer p {
+  font-size: 11px;
+  color: #555;
+  text-align: center;
+}
+
+#mail1 {
+  font-size: 11px;
+  position: relative;
+  bottom: 10px;
+}
+#info {
+  height: 13px;
+}
+
+#inf {
+  position: relative;
+  bottom: 19px;
+  left: 16px;
+}
+
+#acc{
+  position: relative;
+  top: 10px;
+}
+
+#num {
+  width: 150px;
+  position: relative;
+  left: 1px;
+  top: -1px;
+}
+
+#ccode {
+  width: 120px;
+  height: 33px;
+  padding: 3px 7px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #a6a6a6;
+  border-radius: 3px;
+}
